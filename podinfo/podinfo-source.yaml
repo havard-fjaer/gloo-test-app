@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: podinfo
+  namespace: test-app
+spec:
+  interval: 1m0s
+  ref:
+    semver: '>=4.0.0'
+  url: https://github.com/stefanprodan/podinfo

@@ -1,0 +1,14 @@
+# apiVersion: gateway.solo.io/v1
+# kind: RouteTable
+# metadata:
+#   name: 'test-app-routes'
+#   namespace: 'test-app'
+# spec:
+#   routes:
+#     - matchers:
+#       - prefix: '/test-app/'
+#       routeAction:
+#         single:
+#           upstream:
+#             name: default-podinfo-8080
+#             namespace: default
