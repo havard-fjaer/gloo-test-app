@@ -10,5 +10,5 @@ spec:
       routeAction:
         single:
           upstream:
-            name: default-podinfo-8080
+            name: default-podinfo-9898
             namespace: default
