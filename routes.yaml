@@ -11,4 +11,4 @@ spec:
         single:
           upstream:
             name: default-podinfo-9898
-            namespace: default
+            namespace: gloo-system
